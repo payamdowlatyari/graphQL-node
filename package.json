@@ -1,0 +1,27 @@
+{
+  "name": "graphql-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payamdowlatyari/graphQL-node.git"
+  },
+  "author": "Payam D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/payamdowlatyari/graphQL-node/issues"
+  },
+  "homepage": "https://github.com/payamdowlatyari/graphQL-node#readme",
+  "dependencies": {
+    "@graphql-yoga/node": "^2.13.8",
+    "apollo-server-core": "^3.10.1",
+    "apollo-server-express": "^3.10.1",
+    "express": "^4.18.1",
+    "graphql": "^16.6.0"
+  }
+}
